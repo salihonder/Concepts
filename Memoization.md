@@ -52,3 +52,6 @@ cache used for 2
 cache used for 3
 */
 ```
+
+## Resources
+- [Understanding JavaScript Memoization In 3 Minutes](https://codeburst.io/understanding-memoization-in-3-minutes-2e58daf33a19)
