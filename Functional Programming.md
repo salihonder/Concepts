@@ -4,6 +4,23 @@
 2. Avoids state change and mutable data 
 3. Treats functions as first-class citizens 
 
+Functional programming is about:
+
+- **Isolated functions** - there is no dependence on the state of the program, which includes global variables that are subject to change
+
+- **Pure functions** - the same input always gives the same output
+
+- **Functions with limited side effects** - any changes, or mutations, to the state of the program outside the function are carefully controlled
+
+`Terminology`
+**Callbacks** are the functions that are slipped or passed into another function to decide the invocation of that function. You may have seen them passed to other methods, for example in filter, the callback function tells JavaScript the criteria for how to filter an array.
+
+Functions that can be assigned to a variable, passed into another function, or returned from another function just like any other normal value, are called **first class** functions. In JavaScript, all functions are first class functions.
+
+The functions that take a function as an argument, or return a function as a return value are called **higher order** functions.
+
+When the functions are passed in to another function or returned from another function, then those functions which gets passed in or returned can be called a **lambda**.
+
 `Keeps functions and data separate `
 ```js
 // in OOP - Data and functions are together
@@ -13,7 +30,7 @@ class Person {
         this. age = age
     }
     
-    get0lder() { 
+    getOlder() { 
         this. age +=1
     }
 }
@@ -568,3 +585,8 @@ var add5and2 = partiallyApply(add, 5, 2)
 console.log(add5and2(3))
 console.log(add(5, 2, 3))
 ```
+
+
+## Resources
+- [learn.freecodecamp.org](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/functional-programming/)
+- [linkedin.com/learning](ttps://www.linkedin.com/learning)
