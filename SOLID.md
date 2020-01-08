@@ -260,7 +260,7 @@ Typically, dependency injection is used simply by ‘injecting’ any dependenci
 ```c#
 // Observe how we create the ErrorLogger instance from 
 // within the Post class.
-This is a violation of the dependency inversion principle.
+// This is a violation of the dependency inversion principle.
 class Post
 {
     private ErrorLogger errorLogger = new ErrorLogger();
